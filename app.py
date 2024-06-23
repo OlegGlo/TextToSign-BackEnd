@@ -11,7 +11,7 @@ CORS(app)  # Enable CORS
 def get_lyrics():
     
     data = request.json
-    song_name = data['song_name']
+    song_name = data['songName']
     artist_name = data['artist']
     lyrics = get_lyrics_from_gpt(song_name, artist_name)
     return jsonify({'lyrics': lyrics})
