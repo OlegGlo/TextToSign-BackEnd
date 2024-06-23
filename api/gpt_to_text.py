@@ -4,7 +4,7 @@ from groq import Groq
 from openai import OpenAI
 from dotenv import load_dotenv
 
-load_dotenv('./secrets/secrets.env')
+load_dotenv('./env/secrets.env')
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 # OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY', None)
