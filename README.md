@@ -1,9 +1,10 @@
 # TextToSign-BackEnd
 backend for hackathon
 
-Instructions to Run This Backend Service:
-- Create a .env file and set your GROQ_API_KEY
-- pip install -r requirements.txt
-- run main.py
+Instructions to run this backend service:
+- Create a folder named "env" 
+- Create a Secrets.env file in that folder and set your GROQ_API_KEY
+- run: pip install -r requirements.txt
+- run: python main.py
 
-The backend service should be up and running
+The backend service should be up and running on local
